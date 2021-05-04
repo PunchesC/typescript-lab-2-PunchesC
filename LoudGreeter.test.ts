@@ -9,23 +9,16 @@ describe("LoudGreeter", function(){
   });
 
 
-  test("initial values are set from constructor param", () =>{
-    let loudGreets: LoudGreeter = new LoudGreeter("Hola");
-    let result: string = loudGreets.greet("Randy");
-
-    expect(result).toBe("Hola, Randy!!")
-    
-  });
   
-  test("initial values are set from constructor param", () =>{
+  test("NO!!!", () =>{
     let loudGreets: LoudGreeter = new LoudGreeter("Hola");
     let result: string = loudGreets.greet("Randy");
-    loudGreets.addVolume();
+   
     expect(result).toBe("Hola, Randy!!")
     
   });
 
-  test("initial values are set from constructor param", () =>{
+  test("Hello Randy", () =>{
     let loudGreets: LoudGreeter = new LoudGreeter("Hello");
     loudGreets.addVolume();
     loudGreets.addVolume();
@@ -35,7 +28,7 @@ describe("LoudGreeter", function(){
     
   });
 
-  test("initial values are set from constructor param", () =>{
+  test("Megan!!!!!!!!!!!", () =>{
     let loudGreets: LoudGreeter = new LoudGreeter("Hoya");
     loudGreets.addVolume();
     loudGreets.addVolume();

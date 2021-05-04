@@ -1,5 +1,5 @@
 import {htmlGreeter} from "./HtmlGreeter"
-describe("HtmlGreeter", function(){
+describe("HtmlGreeter no second paramter", function(){
   test("Grant no second paramater", () =>{
     let Greets: htmlGreeter = new htmlGreeter("Hello");
     let result: string = Greets.greet("Grant");
@@ -16,7 +16,7 @@ describe("HtmlGreeter", function(){
     
   });
 
-  test("Charlie <h2>", () =>{
+  test("Mitzi p", () =>{
     let Greets: htmlGreeter = new htmlGreeter("Hi", "p");
     let result: string = Greets.greet("Mitzi");
 
